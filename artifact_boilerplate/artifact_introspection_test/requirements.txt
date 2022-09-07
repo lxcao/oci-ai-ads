@@ -1,0 +1,4 @@
+pyyaml
+requests
+urllib3
+oci

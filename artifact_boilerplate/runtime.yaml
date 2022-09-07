@@ -1,0 +1,10 @@
+# This is template runtime.yaml. It has default conda environment value. You can replace these values.
+MODEL_ARTIFACT_VERSION: '3.0'
+MODEL_DEPLOYMENT:
+  INFERENCE_CONDA_ENV:
+    # Replace with the object storage path of the conda environment you want to use.
+    # Go to https://docs.oracle.com/en-us/iaas/data-science/using/conda_environ_list.htm for a list of data_science conda environments you can use out-of-the-box
+    INFERENCE_ENV_PATH: oci://service-conda-packs@id19sfcrra6z/service_pack/cpu/Data Exploration and Manipulation for CPU Python 3.7/2.0/dataexpl_p37_cpu_v2
+
+    # Provide the Python version of the environment.
+    INFERENCE_PYTHON_VERSION: 3.7
