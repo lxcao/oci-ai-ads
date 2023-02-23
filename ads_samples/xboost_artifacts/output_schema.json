@@ -1,0 +1,1 @@
+{"schema": [{"dtype": "category", "feature_type": "Category", "name": "target", "domain": {"values": "Category", "stats": {"count": 86, "unique": 2}, "constraints": [{"expression": "$x in ['benign', 'malignant']", "language": "python"}]}, "required": true, "description": "target", "order": 0}], "version": "1.1"}

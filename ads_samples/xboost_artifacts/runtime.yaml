@@ -1,0 +1,7 @@
+MODEL_ARTIFACT_VERSION: '3.0'
+MODEL_DEPLOYMENT:
+  INFERENCE_CONDA_ENV:
+    INFERENCE_ENV_PATH: oci://<bucket-name>@<namespace>/<prefix>/<env>.tar.gz
+    INFERENCE_ENV_SLUG: <slug of the conda environment>
+    INFERENCE_ENV_TYPE: data_science
+    INFERENCE_PYTHON_VERSION: <python version>
