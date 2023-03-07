@@ -1,0 +1,10 @@
+channels:
+- defaults
+- conda-forge
+dependencies:
+- conda-forge::oracledb=1.1.1
+- main::numpy=1.23.3
+- main::pandas
+- pip:
+    - oracle-ads==2.8
+    - ipykernel
